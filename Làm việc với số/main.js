@@ -18,3 +18,22 @@
  
  - Number.prototype.toString():Chuyển đổi và trả về số đã cho dưới dạng chuỗi
  */
+
+// 1. Tạo giá trị Number
+// Các cách tạo
+    var age = 21; // Nên dùng cách này
+    var year = 2022;
+    var PI = 3.516536;
+
+    var otherNumber = new Number(21);
+
+// 2. Làm việc với Number
+// - To string
+    var myString = age.toString();
+    console.log(myString);
+// - to Fixed
+// Tham số truyền vào là thứ tự làm tròn số thập phân
+    console.log(PI.toFixed(2))
+
+// Keyword: JS number method
+
