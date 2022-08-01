@@ -50,3 +50,5 @@ var testFunction = {
     }
 }
 console.log(testFunction.getName()) 
+// Function --> phương thức (method)
+// Others --> thuộc tính (property)
