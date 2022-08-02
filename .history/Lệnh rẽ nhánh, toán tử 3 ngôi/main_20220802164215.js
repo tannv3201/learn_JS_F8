@@ -248,40 +248,8 @@ console.log(c);
 
     // Continue
     for (var i = 0; i < 10; i++) {
-        // Nếu i chia cho 2 không dư (số chẵn)
-        // --> in ra số chẵn
         if (i%2 !== 0) {
             continue;
         }
         console.log(i)
     }
-
-// Vòng lặp lồng nhau - Nested loop
-    var arrNestedLoop = [
-        [1, 2],
-        [3, 4],
-        [5, 6],
-    ];
-    for (var i = 0; i < arrNestedLoop.length; i++) {
-        for (var j = 0; j < arrNestedLoop[i].length; j++) {
-            console.log(arrNestedLoop[i][j])
-        }
-    }
-
-// Một số ví dụ về lòng lặp
-    // in dãy số 100 --> 1
-    for (var i = 100; i > 0; i--) {
-        console.log(i);
-    }
-
-    // in ra 1 --> 100 bước nhảy 5
-    for (var i = 0; i <= 100; i += 5) {
-        console.log(i);
-    }
-
-    // in ra 100 --> 1 bước nhảy 5
-    for (var i = 100; i > 0; i -= 5) {
-        console.log(i);
-    }
-
-

@@ -268,20 +268,3 @@ console.log(c);
         }
     }
 
-// Một số ví dụ về lòng lặp
-    // in dãy số 100 --> 1
-    for (var i = 100; i > 0; i--) {
-        console.log(i);
-    }
-
-    // in ra 1 --> 100 bước nhảy 5
-    for (var i = 0; i <= 100; i += 5) {
-        console.log(i);
-    }
-
-    // in ra 100 --> 1 bước nhảy 5
-    for (var i = 100; i > 0; i -= 5) {
-        console.log(i);
-    }
-
-

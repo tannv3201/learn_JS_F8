@@ -194,10 +194,10 @@ console.log(c);
 
 // 4. while - Lặp khi điều kiện đúng ()
     // In ra dãy chữ số từ 1 --> 10
-    var iW = 0;
-    while (iW < 10) {
-        iW++; // Không được quên
-        console.log(iW)
+    var i = 0;
+    while (i < 10) {
+        i++; // Không được quên
+        console.log(i)
     }
 
     // Array
@@ -206,82 +206,30 @@ console.log(c);
         'PHP',
         'Java',
     ];
-    var iArrW = 0;
-    while(iArrW < arrWhile.length) {
-        console.log(arrWhile[iArrW]);
-        iArrW++;
+    var i = 0;
+    while(i < arrWhile.length) {
+        console.log(arrWhile[i]);
+        i++;
     }
 
 // 5. do/while - Lặp ít nhất 1 lần, sau đó lặp khi điều kiện đúng
 // Lần đầu tiên chạy không quan tâm điều kiện.
     // In ra dãy số tăng dần từ 1 --> 10
-    var iDW = 0;
+    var i = 0;
     do {
-        iDW++;
-        console.log(iDW)
-    } while (iDW < 10);
+        i++;
+        console.log(i)
+    } while (i < 10);
 
     // Nạp thẻ
-    var iNapThe = 0;
     var isSuccess = false;
     do {
-        iNapThe++;
-        console.log('Nạp thẻ lần: ' + iNapThe)
+        i++;
+        console.log(i)
 
         // Thành công
-        if (false) {
+        if (true) {
             isSuccess = true;
         }
-    } while (!isSuccess && iNapThe < 3);
-
-
-// Break & Continue trong vòng lặp
-    // In ra từ 1 --> 10
-    for (var i = 0; i < 10; i++) {
-        console.log(i)
-
-        // Chỉ cho in ra đến 5
-        if(i >= 5) {
-            break; // Thoát khỏi vòng lặp
-        }
-    }
-
-    // Continue
-    for (var i = 0; i < 10; i++) {
-        // Nếu i chia cho 2 không dư (số chẵn)
-        // --> in ra số chẵn
-        if (i%2 !== 0) {
-            continue;
-        }
-        console.log(i)
-    }
-
-// Vòng lặp lồng nhau - Nested loop
-    var arrNestedLoop = [
-        [1, 2],
-        [3, 4],
-        [5, 6],
-    ];
-    for (var i = 0; i < arrNestedLoop.length; i++) {
-        for (var j = 0; j < arrNestedLoop[i].length; j++) {
-            console.log(arrNestedLoop[i][j])
-        }
-    }
-
-// Một số ví dụ về lòng lặp
-    // in dãy số 100 --> 1
-    for (var i = 100; i > 0; i--) {
-        console.log(i);
-    }
-
-    // in ra 1 --> 100 bước nhảy 5
-    for (var i = 0; i <= 100; i += 5) {
-        console.log(i);
-    }
-
-    // in ra 100 --> 1 bước nhảy 5
-    for (var i = 100; i > 0; i -= 5) {
-        console.log(i);
-    }
-
+    } while (i < 10);
 

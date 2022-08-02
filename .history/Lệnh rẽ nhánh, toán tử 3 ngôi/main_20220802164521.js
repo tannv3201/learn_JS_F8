@@ -262,26 +262,4 @@ console.log(c);
         [3, 4],
         [5, 6],
     ];
-    for (var i = 0; i < arrNestedLoop.length; i++) {
-        for (var j = 0; j < arrNestedLoop[i].length; j++) {
-            console.log(arrNestedLoop[i][j])
-        }
-    }
-
-// Một số ví dụ về lòng lặp
-    // in dãy số 100 --> 1
-    for (var i = 100; i > 0; i--) {
-        console.log(i);
-    }
-
-    // in ra 1 --> 100 bước nhảy 5
-    for (var i = 0; i <= 100; i += 5) {
-        console.log(i);
-    }
-
-    // in ra 100 --> 1 bước nhảy 5
-    for (var i = 100; i > 0; i -= 5) {
-        console.log(i);
-    }
-
 
