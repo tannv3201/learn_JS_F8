@@ -188,8 +188,7 @@ console.log('Math.floor(1.9): ', Math.floor(1.9))
 console.log('Math.random(): ', Math.random())
 console.log('Số ngẫu nhiên < 10: ', Math.floor(Math.random() * 10))
 
-// Random phần tử trong mảng
-var random = Math.floor(Math.random() * 3);
+var random = Math.floor(Math.random() * 5);
 var bonus = [
     '10 coin',
     '20 coin',
@@ -197,14 +196,6 @@ var bonus = [
 ]
 console.log('Random phần tử mảng: ', bonus[random])
 
-// Random theo tỉ lệ
-var randomPercent = Math.floor(Math.random() * 100);
-if(randomPercent < 50){
-    console.log('Cường hóa thành công!')
-}
+//  - Math.min()
 
-//  - Math.min(): Đưa ra số nhỏ nhất
-console.log('min(-100, 1, 200)', Math.min(-100, 100, 200));
-
-//  - Math.max(): Đưa ra số lớn nhất
-console.log('max(-100, 1, 200)', Math.max(-100, 1, 200));
+//  - Math.max()

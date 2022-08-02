@@ -134,77 +134,7 @@ var parrot = new Animal('Vẹt', 2, '100KM')
 console.log(parrot)
 
 
-// Object prototype - Basic : Nguyên mẫu để tạo nên 1 đối tượng
+// Object prototype - Basic (Nguyên mẫu để tạo nên 1 đối tượng)
 // Nguyên liệu tạo nên ngôi nhà
-
-// Thêm 1 thuộc tính ngoài hàm tạo, (trong hàm tạo dùng this.)
-// Khác với từ khóa "this"
-// Attr & method được tạo bằng protoype 
 User.prototype.className = 'F8';
-console.log(user.className)
-
-// Object student
-function Student(firstName, lastName) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-}
-Student.prototype.getFullName = function() {
-    return `${this.firstName} ${this.lastName}`
-}
-
-var student = new Student('Tan', 'Nguyen')
-
-console.log('First Name: ', student.firstName);
-console.log('Last Name: ',student.lastName);
-console.log('Full Name: ',student.getFullName());
-
-
-// Đối tượng Date
-// 
-var date = new Date();
-var year =  date.getFullYear();
-var month=  date.getMonth() + 1;
-var day = date.getDay();
-console.log('Ngày tháng năm: ', `${day}/${month}/${year}`)
-
-// Đối tượng Math
-
-//  - Math.PI
-console.log('Math.PI: ', Math.PI)
-
-//  - Math.round(): Làm tròn số thập phân --> trả về số nguyên
-console.log('Math.round(1.5): ', Math.round(1.5))
-
-//  - Math.abs(): giá trị tuyệt đối
-console.log('Math.abs(-4): ', Math.abs(-4))
-
-//  - Math.ceil(): CHỈ làm tròn TRÊN (trừ phần thập phân = 0)
-console.log('Math.ceil(1.1): ', Math.ceil(1.1))
-
-//  - Math.floor(): CHỈ làm tròn DƯỚI (trừ phần thập phân = 0)
-console.log('Math.floor(1.9): ', Math.floor(1.9))
-
-//  - Math.random(): Trả về số thập phân ngẫu nhiên < 1
-console.log('Math.random(): ', Math.random())
-console.log('Số ngẫu nhiên < 10: ', Math.floor(Math.random() * 10))
-
-// Random phần tử trong mảng
-var random = Math.floor(Math.random() * 3);
-var bonus = [
-    '10 coin',
-    '20 coin',
-    '30 coin',
-]
-console.log('Random phần tử mảng: ', bonus[random])
-
-// Random theo tỉ lệ
-var randomPercent = Math.floor(Math.random() * 100);
-if(randomPercent < 50){
-    console.log('Cường hóa thành công!')
-}
-
-//  - Math.min(): Đưa ra số nhỏ nhất
-console.log('min(-100, 1, 200)', Math.min(-100, 100, 200));
-
-//  - Math.max(): Đưa ra số lớn nhất
-console.log('max(-100, 1, 200)', Math.max(-100, 1, 200));
+console.log(user2.className)

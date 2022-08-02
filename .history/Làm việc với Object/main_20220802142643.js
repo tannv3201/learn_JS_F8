@@ -199,12 +199,10 @@ console.log('Random phần tử mảng: ', bonus[random])
 
 // Random theo tỉ lệ
 var randomPercent = Math.floor(Math.random() * 100);
+
 if(randomPercent < 50){
     console.log('Cường hóa thành công!')
 }
+//  - Math.min()
 
-//  - Math.min(): Đưa ra số nhỏ nhất
-console.log('min(-100, 1, 200)', Math.min(-100, 100, 200));
-
-//  - Math.max(): Đưa ra số lớn nhất
-console.log('max(-100, 1, 200)', Math.max(-100, 1, 200));
+//  - Math.max()

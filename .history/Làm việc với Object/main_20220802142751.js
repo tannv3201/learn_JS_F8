@@ -204,7 +204,8 @@ if(randomPercent < 50){
 }
 
 //  - Math.min(): Đưa ra số nhỏ nhất
-console.log('min(-100, 1, 200)', Math.min(-100, 100, 200));
+console.log('min(-100, 1, 90, 100, 200)', Math.min(-100, 1, 90, 100, 200));
 
-//  - Math.max(): Đưa ra số lớn nhất
-console.log('max(-100, 1, 200)', Math.max(-100, 1, 200));
+
+
+//  - Math.max()
