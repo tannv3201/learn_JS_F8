@@ -17,7 +17,5 @@ if (obj?.cat?.cat2) {
 const obj2 = {
     getName(value) {
         console.log(value);
-        return value
     }
-};
-console.log(obj2.getName(123));
+}

@@ -10,14 +10,6 @@ const obj = {
 };
 
 if (obj?.cat?.cat2) {
-    console.log(obj.cat.cat2.name);
-}
+    console.log(obj.cat.name);
 
-// 
-const obj2 = {
-    getName(value) {
-        console.log(value);
-        return value
-    }
-};
-console.log(obj2.getName(123));
+}
