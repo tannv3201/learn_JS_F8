@@ -1,0 +1,19 @@
+{
+  "course": [
+    {
+      "id": 1,
+      "name": "HTML/CSS cơ bản",
+      "description": "Kiến thức cơ bản dành cho người mới, không phân biệt bạn theo Front-end, Back-end hay Devops"
+    },
+    {
+      "id": 2,
+      "name": "ReactJS cơ bản",
+      "description": "ReactJS cơ bản cho người mới bắt đầu"
+    },
+    {
+      "name": "NodeJS",
+      "description": "NodeJS cơ bản cho người mới bắt đầu",
+      "id": 3
+    }
+  ]
+}

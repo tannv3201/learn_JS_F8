@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+}
+
+.courses {
+    width: 50%;
+    border-right: 1px solid #ccc;
+    min-height: 500px;
+
+}
+
+.handle-crud {
+    width: 50%;
+    min-height: 500px;
+
+}
+
+.title-courses,
+.title-handle-crud {
+    text-align: center;
+}
+
+ul {}
+
+li {
+    list-style: none;
+}
+
+label {
+    width: 100px;
+}
+
+.info-name,
+.info-desc {
+    display: flex;
+}
+
+.info-desc {
+    margin-top: 8px;
+}
+
+#btnCreate {
+    margin: 8px 0 0 100px;
+}

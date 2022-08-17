@@ -1,0 +1,12 @@
+.wrapper {}
+
+.handle-crud {
+    width: 50%;
+    border-right: 1px solid #ccc;
+    height: 500px;
+
+}
+
+.title-courses {
+    text-align: center;
+}
