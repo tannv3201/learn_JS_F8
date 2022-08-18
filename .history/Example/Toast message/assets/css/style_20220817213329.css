@@ -1,0 +1,17 @@
+.toast {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    border-left: 4px solid;
+}
+
+.toast__icon {}
+
+.toast__body {}
+
+.toast__title {}
+
+.toast__msg {}
+
+.toast__close {}
