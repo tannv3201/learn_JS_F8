@@ -1,0 +1,20 @@
+export default function html([first, ...strings], ...values) {
+    return values.reduce(
+        (acc, cur) => acc.concat(cur, strings.shift()),
+        [first]
+    )
+        .filter(x => x && x !== true || x === 0)
+        .join('')
+}
+
+export function createStore(reducer) {
+    let state = reducer(); // truyền callback
+
+    const roots = new Map(); //Chứa những gốc Element để render ra view.
+    // Map: có tính chất lặp qua, đặt key của nó bằng bất kì kiểu dữ liệu gì.
+
+    function render() {
+
+    }
+
+}
